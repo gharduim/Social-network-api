@@ -1,0 +1,28 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gharduim/social-network-database.git"
+  },
+  "keywords": [],
+  "author": "Gustavo Harduim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gharduim/social-network-database/issues"
+  },
+  "homepage": "https://github.com/gharduim/social-network-database#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.6"
+  }
+}
